@@ -3,11 +3,11 @@ start-mongod:
 	sh mongodb_init.sh
 
 deps-install:
-	echo "Installing Dependencies"
+	echo "Dependencies"
 	pip install -r requirements.txt
 
 install:
-	echo "Installing Application"
+	echo "Application"
 	python setup.py install  --record files.txt
 
 run-tests:
