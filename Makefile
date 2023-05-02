@@ -15,11 +15,11 @@ run-tests:
 
 run-script:
 	# make install
-	script_runner.py < ./sample_data/largeOrder600K.txt
+	script_runner.py < ./data/largeOrder600K.txt
 
 run-benchmarks:
 	benchmark.py
 
 run-threaded-script:
 	echo "Multithreaded script, entries are dumped to database."
-	threaded_script.py < ./sample_data/largeOrder600K.txt
+	threaded_script.py < ./data/largeOrder600K.txt
