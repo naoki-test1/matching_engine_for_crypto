@@ -10,21 +10,6 @@ install:
 	echo "Installing Application"
 	python setup.py install  --record files.txt
 
-uninstall:
-	echo "Installing Application. Please provide password on prompt."
-	cat files.txt | xargs sudo rm -rf 
-	# pip uninstall limit-order-book
-
-reinstall:
-	make uninstall
-	make install
-
-fresh:
-	make uninstall
-	make deps-install
-	make install
-
-# Run all Test Cases
 run-tests:
 	python -m unittest discover
 
