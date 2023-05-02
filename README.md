@@ -24,12 +24,6 @@ Salient points and considerations are explained below.
 
 Installation
 - 
-
-Pre requisite
-       python version > 3.0.0
-       Mongo version > 4.4.0
-In order to run multi-threaded script MongoDB server need to be configured on Machine. Make script is developed to ease installation, configuring dependencies and has other util methods.
-
 Install Dependencies
        make deps-install
               OR
