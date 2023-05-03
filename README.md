@@ -3,12 +3,6 @@
 Architecture
 - 
 
-Salient points and considerations are explained below.
-
-- Code for Matching Engine is developed keeping in mind HFT i-e High Frequency Trading.
-
-- Efficient Data Structures are implemented in such away to attain objectives for HFT.
-
 - Time complexity for critical operations are as.
 
        Add – O(log M) for the first order at a limit, O(1) for all others
